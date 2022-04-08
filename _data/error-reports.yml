@@ -94,3 +94,19 @@
     - order: 4
       show: yes
       list: https://docs.google.com/spreadsheets/d/1d5fy9qK5e1XOhZps_hvHS1ughBwTDrdh2p8qaMLiRKA/edit#gid=1101058336
+
+- year: 2022
+  link: https://docs.google.com/spreadsheets/d/1MMODlZ6l9F_VJL2gjbOb-RYSrJoTuzYujtxVAB4ZGVg/edit?usp=sharing
+  times:
+    - order: 1
+      show: yes
+      list: https://docs.google.com/spreadsheets/d/1MMODlZ6l9F_VJL2gjbOb-RYSrJoTuzYujtxVAB4ZGVg/edit#gid=235211903
+    - order: 2
+      show: no
+      list: https://docs.google.com/spreadsheets/d/1MMODlZ6l9F_VJL2gjbOb-RYSrJoTuzYujtxVAB4ZGVg/edit#gid=155485156
+    - order: 3
+      show: no
+      list: https://docs.google.com/spreadsheets/d/1MMODlZ6l9F_VJL2gjbOb-RYSrJoTuzYujtxVAB4ZGVg/edit#gid=1265878830
+    - order: 4
+      show: no
+      list: https://docs.google.com/spreadsheets/d/1MMODlZ6l9F_VJL2gjbOb-RYSrJoTuzYujtxVAB4ZGVg/edit#gid=1101058336
