@@ -140,7 +140,7 @@
       show: yes
       list: https://docs.google.com/spreadsheets/d/1uvK2308zH1obso4RwsKWtz159yU8B03AT32eiK2pUyA/edit#gid=1063143027
     - order: 4
-      show: no
+      show: yes
       list: https://docs.google.com/spreadsheets/d/1uvK2308zH1obso4RwsKWtz159yU8B03AT32eiK2pUyA/edit#gid=1374326015
 
 - year: 2025
