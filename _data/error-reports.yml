@@ -142,3 +142,19 @@
     - order: 4
       show: no
       list: https://docs.google.com/spreadsheets/d/1uvK2308zH1obso4RwsKWtz159yU8B03AT32eiK2pUyA/edit#gid=1374326015
+
+- year: 2025
+  link: https://docs.google.com/spreadsheets/d/19W-XMtDn6i39AtNqG9LBT81Z7wMhI8bJRYQPpsboJyQ/edit?usp=sharing
+  times:
+    - order: 1
+      show: yes
+      list: https://docs.google.com/spreadsheets/d/19W-XMtDn6i39AtNqG9LBT81Z7wMhI8bJRYQPpsboJyQ/edit?gid=672470411#gid=672470411
+    - order: 2
+      show: no
+      list: https://docs.google.com/spreadsheets/d/19W-XMtDn6i39AtNqG9LBT81Z7wMhI8bJRYQPpsboJyQ/edit?gid=758078313#gid=758078313
+    - order: 3
+      show: no
+      list: https://docs.google.com/spreadsheets/d/19W-XMtDn6i39AtNqG9LBT81Z7wMhI8bJRYQPpsboJyQ/edit?gid=1063143027#gid=1063143027
+    - order: 4
+      show: no
+      list: https://docs.google.com/spreadsheets/d/19W-XMtDn6i39AtNqG9LBT81Z7wMhI8bJRYQPpsboJyQ/edit?gid=925121939#gid=925121939
