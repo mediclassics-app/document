@@ -18,7 +18,7 @@ categories: document
 - 모든 항목은 ID와 META를 필수로 포함해야 하고, META는 TAG를 필수로 포함해야 합니다.
 - META에서 키는 대문자, 값은 소문자를 권장합니다.
 - 메모나 작업자의 의견은 `#` 기호 뒤에 넣을 수 있고, DB에는 반영되지 않습니다.
-- 콘텐츠에 들어가는 인라인 태그는 모두 `\{\{...\}\}` 기호로 작성합니다.
+- 콘텐츠에 들어가는 인라인 태그는 모두 `ㄴ...｝｝` 기호로 작성합니다.
 
 ```
 ID	YnabT7yEpP8nkQ
@@ -42,18 +42,18 @@ TR/EN	Those of the medical profession often mention Huangdi a...
 
 #### ① 형태 표시
 
-텍스트의 형태를 나타내는 태그는 `\{\{sm/...\}\}`처럼 소문자 2글자를 사용하며, `+`를 사용하여 조합할 수 있습니다.
+텍스트의 형태를 나타내는 태그는 `｛｛sm/...｝｝`처럼 소문자 2글자를 사용하며, `+`를 사용하여 조합할 수 있습니다.
 
-- 작은 글자 (small) : {{sm/當歸}} → `<span class="size-sm">當歸</span> `
-- 큰 글자 (large) : {{lg/當歸}} → `<span class="size-lg">當歸</span>`
-- 양각 (positive / relief) : {{ps/當歸}} → `<span class="print-ps">當歸</span>`
-- 음각 (negative / intaglio) : {{ng/當歸}} → `<span class="print-ng">當歸</span>`
-- 작은 글자면서 양각 : {{sm+ps/當歸}} → `<span class="size-sm print-ps">當歸</span>`
-- 작은 글자면서 저본에 포함된 주석 (annotation) : {{an+sm/李曰...}} → `<span class="size-sm annotation">李曰...</span>`
+- 작은 글자 (small) : ｛｛sm/當歸｝｝ → `<span class="size-sm">當歸</span> `
+- 큰 글자 (large) : ｛｛lg/當歸｝｝ → `<span class="size-lg">當歸</span>`
+- 양각 (positive / relief) : ｛｛ps/當歸｝｝ → `<span class="print-ps">當歸</span>`
+- 음각 (negative / intaglio) : ｛｛ng/當歸｝｝ → `<span class="print-ng">當歸</span>`
+- 작은 글자면서 양각 : ｛｛sm+ps/當歸｝｝ → `<span class="size-sm print-ps">當歸</span>`
+- 작은 글자면서 저본에 포함된 주석 (annotation) : ｛｛an+sm/李曰...｝｝ → `<span class="size-sm annotation">李曰...</span>`
 
 #### ② 교감기 및 역자주
 
-역자주는 `{{주석 대상 : 설명 ※출전}}`처럼 자유롭게 작성하고, 교감기는 `{{대상 = 교감글자1 ※출전 ☆ *교감글자2 ※출전}}`처럼 작성합니다.
+역자주는 `｛｛주석 대상 : 설명 ※출전｝｝`처럼 자유롭게 작성하고, 교감기는 `｛｛대상 = 교감글자1 ※출전 ☆ *교감글자2 ※출전｝｝`처럼 작성합니다.
 
 - 기존에는 주석 대상 텍스트가 주석 기호 안에 있었으나, 앞으로는 주석 기호 밖에도 반드시 적어야 합니다.
 - 교감기에서 올바른 글자라고 판단하면 `*` 기호를 붙여서 표시할 수 있습니다.
@@ -64,14 +64,14 @@ TR/EN	Those of the medical profession often mention Huangdi a...
 ```
 ID	YSx5hSdbFw3_kw
 META	{ TAG: p, CLASS: indent1 }
-OR/HZ	孫眞人曰, 天地之內, 以人爲貴{{以人爲貴: 《주해상한론》에는 以天爲貴로 되어 있다.\n번역은 원본을 따랐다.}}, 頭圓象天, 足方象地, 天有四時, 人有四肢, ....
-TR/KO	손진인이, "천지에서 존재하는 것 가운데 사람이 가장 귀중하다. 둥근 머리는 하늘을 닮았고 네모난 발은 땅을 닮았다.{{이 부분은 《주역》을 인용한 것이다.}} 하늘에 사시가 있듯이...
+OR/HZ	孫眞人曰, 天地之內, 以人爲貴｛｛以人爲貴: 《주해상한론》에는 以天爲貴로 되어 있다.\n번역은 원본을 따랐다.｝｝, 頭圓象天, 足方象地, 天有四時, 人有四肢, ....
+TR/KO	손진인이, "천지에서 존재하는 것 가운데 사람이 가장 귀중하다. 둥근 머리는 하늘을 닮았고 네모난 발은 땅을 닮았다.｛｛이 부분은 《주역》을 인용한 것이다.｝｝ 하늘에 사시가 있듯이...
 TR/EN	There is a saying by <i>Sun Zhenren (孫眞人)</i>, "Mankind is the most precious of all living things in the universe...
 ```
 
 #### ③ 기타
-- 이미지 글자(최소한으로 사용) : {{chr/A001_0001.png}}
-- 파자, 신출자 : {{chr/广+付}}, {{chr/★}}
+- 이미지 글자(최소한으로 사용) : ｛｛chr/A001_0001.png｝｝
+- 파자, 신출자 : ｛｛chr/广+付｝｝, ｛｛chr/★｝｝
 - 영문에서 이탤릭 : `<i>...</i>`
 - 문단 내 줄바꿈
 	* `☆` 기호를 사용하거나(1줄에 작성)
@@ -149,12 +149,12 @@ TR/EN	<table><thead><tr><th>1st day</th><th>10th day</th>...</table>
 ID	7TzSab027AVVBQ
 META	{ TAG: h3 }
 OR/HZ	形氣之始
-TR/KO	형기{{include/abc.yaml?id=12}}의 시작
+TR/KO	형기｛｛include/abc.yaml?id=12｝｝의 시작
 TR/EN	The Beginning of Form and Qi
 
 # abc.yaml 파일
 - id: 12
-  text: {{형기(形氣)란 육체와 정신을 아우르는 표현이다.}}
+  text: ｛｛형기(形氣)란 육체와 정신을 아우르는 표현이다.｝｝
 ```
 
 #### ② 처방 구성의 표준 형식
