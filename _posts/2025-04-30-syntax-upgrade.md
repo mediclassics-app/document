@@ -64,14 +64,15 @@ TR/EN	Those of the medical profession often mention Huangdi a...
 ```
 ID	YSx5hSdbFw3_kw
 META	{ TAG: p, CLASS: indent1 }
-OR/HZ	孫眞人曰, 天地之內, 以人爲貴{% raw %}{{{% endraw %}以人爲貴: 《주해상한론》에는 以天爲貴로 되어 있다.\n번역은 원본을 따랐다.{% raw %}}}{% endraw %}, 頭圓象天, 足方象地, 天有四時, 人有四肢, ....
+OR/HZ	孫眞人曰, 天地之內, 以人爲貴{% raw %}{{{% endraw %}以人爲貴: 《주해상한론》에는 以天爲貴로 되어 있다.☆번역은 원본을 따랐다.{% raw %}}}{% endraw %}, 頭圓象天, 足方象地, 天有四時, 人有四肢, ....
 TR/KO	손진인이, "천지에서 존재하는 것 가운데 사람이 가장 귀중하다. 둥근 머리는 하늘을 닮았고 네모난 발은 땅을 닮았다.{% raw %}{{{% endraw %}이 부분은 《주역》을 인용한 것이다.{% raw %}}}{% endraw %} 하늘에 사시가 있듯이...
 TR/EN	There is a saying by <i>Sun Zhenren (孫眞人)</i>, "Mankind is the most precious of all living things in the universe...
 ```
 
 #### ③ 기타
 - 이미지 글자(최소한으로 사용) : {% raw %}{{{% endraw %}chr/A001_0001.png{% raw %}}}{% endraw %}
-- 파자, 신출자 : {% raw %}{{{% endraw %}chr/广+付{% raw %}}}{% endraw %}, {% raw %}{{{% endraw %}chr/★{% raw %}}}{% endraw %}
+- 파자 : {% raw %}{{{% endraw %}chr/广+付{% raw %}}}{% endraw %}
+- 신출자, 마멸자 : {% raw %}{{{% endraw %}chr/★{% raw %}}}{% endraw %}
 - 영문에서 이탤릭 : `<i>...</i>`
 - 문단 내 줄바꿈
 	* `☆` 기호를 사용하거나(1줄에 작성)
