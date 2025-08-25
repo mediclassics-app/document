@@ -22,13 +22,13 @@ categories: document
 
 ```
 ID	YnabT7yEpP8nkQ
-META	{ TAG: h2, CLASS: [intro, outline-none] }
+META	{ TAG: h2, CLASS: [ title, intro, outline-none] }
 OR/HZ	東醫寶鑑序
 TR/KO	동의보감 서문 #메모나 의견은 샾 기호 사용
 TR/EN	Preface
 
 ID	_dWliTEcBQKptw
-META	{ TAG: p }
+META	{ TAG: p, CLASS: text }
 OR/HZ	醫者雅言軒岐, 軒岐上窮天紀, 下極人理...
 TR/KO	의사들은 항상 헌원(軒轅)과 기백(岐伯)을 말합니다. 헌원과 기백...
 TR/EN	Those of the medical profession often mention Huangdi a...
@@ -63,7 +63,7 @@ TR/EN	Those of the medical profession often mention Huangdi a...
 
 ```
 ID	YSx5hSdbFw3_kw
-META	{ TAG: p, CLASS: indent1 }
+META	{ TAG: p, CLASS: [ text, indent1 ] }
 OR/HZ	孫眞人曰, 天地之內, 以人爲貴{% raw %}{{{% endraw %}note/以人爲貴: 《주해상한론》에는 以天爲貴로 되어 있다.☆번역은 원본을 따랐다.{% raw %}}}{% endraw %}, 頭圓象天, 足方象地, 天有四時, 人有四肢, ....
 TR/KO	손진인이, "천지에서 존재하는 것 가운데 사람이 가장 귀중하다. 둥근 머리는 하늘을 닮았고 네모난 발은 땅을 닮았다.{% raw %}{{{% endraw %}note/이 부분은 《주역》을 인용한 것이다.{% raw %}}}{% endraw %} 하늘에 사시가 있듯이...
 TR/EN	There is a saying by <i>Sun Zhenren (孫眞人)</i>, "Mankind is the most precious of all living things in the universe...
@@ -80,7 +80,7 @@ TR/EN	There is a saying by <i>Sun Zhenren (孫眞人)</i>, "Mankind is the most 
 
 ```
 ID	igeU4d-vz0oTpg
-META	{ TAG: p, CLASS: poem }
+META	{ TAG: p, CLASS: [ text, poem ] }
 OR/HZ	|-
   養子須調護
   看承莫縱馳
@@ -105,13 +105,13 @@ TR/KO	니환궁, 수해뇌, 옥침관, 녹로관, 미려관...
 TR/EN	blabla..
 
 ID	uAmMgyPhsm3_Kw
-META	{ TAG: p, CLASS: pic-title }
+META	{ TAG: p, CLASS: [ pic, title ] }
 OR/HZ	身形藏府圖
 TR/KO	신형장부도
 TR/EN	Picture of the overall body, viscera, and bowels
 
 ID	VYeU4d-vz0oTpg
-META	{ TAG: p, CLASS: pic-p }
+META	{ TAG: p, CLASS: [ pic, text ] }
 OR/HZ	孫眞人曰, 天地之內, 以人爲貴...
 TR/KO	손진인이, "천지에서 존재하는 것 가운데 사람이 가장 귀중하다...
 TR/EN	There is a saying by Sun Zhenren (孫眞人)...
@@ -148,7 +148,7 @@ TR/EN	<table><thead><tr><th>1st day</th><th>10th day</th>...</table>
 
 ```
 ID	7TzSab027AVVBQ
-META	{ TAG: h3 }
+META	{ TAG: h3, CLASS: title }
 OR/HZ	形氣之始
 TR/KO	형기｛｛include/abc.yaml?id=12｝｝의 시작
 TR/EN	The Beginning of Form and Qi
@@ -197,7 +197,7 @@ TR/KO	백작약(술에 축여 볶는다) 2돈, 당귀ㆍ인삼ㆍ백출ㆍ황기
 
 ## 메타데이터(META)의 태그(TAG) 목록
 
-- h1 : 권명
+- h1 : 권ㆍ편
 - h2 : 제목(1수준), 서발문, 범례 등
 - h3 : 제목(2수준)
 - h4 : 제목(3수준)
@@ -211,14 +211,18 @@ TR/KO	백작약(술에 축여 볶는다) 2돈, 당귀ㆍ인삼ㆍ백출ㆍ황기
 
 ### 1. 텍스트
 
+#### 제목(기본 클래스 title)
+
 - intro : 서적 앞의 서발문ㆍ목차ㆍ범례 등 본문 이외의 내용
 - outro : 서적 끝의 발문ㆍ간행기 등 본문 이외의 내용
-- temp-title : 가독성을 위한 임의로 묶은 제목
-- formula-title : 처방명
-- formula-p : 처방 내용
-- herb-title : 본초명
-- acupoint-title : 경혈명
+- temp : 가독성을 위한 임의로 묶은 제목
+- formula : 처방명
+- herb : 본초명
+- acupoint : 경혈명
 - outline-none : 개요번호를 매기지 않음
+
+#### 본문(기본 클래스 text)
+- formula : 처방 내용
 - traditional-comment : 원본에 있는 주석
 - modern-comment : 현대인의 해설
 - description : 제목에 대한 설명, 본문 이외의 텍스트
@@ -232,8 +236,8 @@ TR/KO	백작약(술에 축여 볶는다) 2돈, 당귀ㆍ인삼ㆍ백출ㆍ황기
 ### 2. 삽화
 
 - pic : 삽화
-- pic-title : 삽화의 제목
-- pic-p : 삽화의 텍스트
+- pic + title : 삽화의 제목
+- pic + text : 삽화의 텍스트
 
 ### 3. 표
 
