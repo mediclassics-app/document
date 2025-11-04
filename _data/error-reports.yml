@@ -153,7 +153,7 @@
       show: yes
       list: https://docs.google.com/spreadsheets/d/19W-XMtDn6i39AtNqG9LBT81Z7wMhI8bJRYQPpsboJyQ/edit?gid=758078313#gid=758078313
     - order: 3
-      show: no
+      show: yes
       list: https://docs.google.com/spreadsheets/d/19W-XMtDn6i39AtNqG9LBT81Z7wMhI8bJRYQPpsboJyQ/edit?gid=1063143027#gid=1063143027
     - order: 4
       show: no
