@@ -11,8 +11,7 @@ email: kmongoing@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   한의학 고문헌 연구 집단
 baseurl: "/document" # the subpath of your site, e.g. /blog
-url: "http://kmongoing.github.io" # the base hostname & protocol for your site
-github: [Repository metadata] # https://help.github.com/articles/using-jekyll-with-pages/
+url: "https://mediclassics-app.github.io" # the base hostname & protocol for your site
 
 # Author
 github_username:  kmongoing
@@ -28,7 +27,13 @@ markdown: kramdown
 #   extensions: [strikethrough, tables]
 sass:
   sass_dir: public/css
-  style: :compressed
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
 #theme: "brume (https://github.com/aigarsdz/brume)"
 
 # Front Matter defaults

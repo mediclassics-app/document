@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-# gem 'jekyll'
 # gem 'redcarpet'
-gem "github-pages"
+gem "jekyll", "~> 4.4"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
